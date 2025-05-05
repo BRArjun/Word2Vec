@@ -4,9 +4,9 @@ Implementation of two word2vec algorithms from scratch: skip-gram (with negative
 
 No machine learning libraries were used. All gradients and cost functions are implemented from scratch. I provide various "sanity-check" tests for all main functionalities implemented.
 
-Important: the entire project and implementation are inspired by the first assignment in [Stanford's course "Deep Learning for NLP" (2017)](https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1174/). The tasks can be found at [this address](http://cs224d.stanford.edu/assignment1/index.html).
+Important: the entire project and implementation are inspired by [Stanford's course "Deep Learning for NLP" (2017)](https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1174/). The tasks can be found at [this address](http://cs224d.stanford.edu/assignment1/index.html).
 
-The word vectors are trained on the Stanford Sentiment Treebank (SST). Stochastic gradient descent is used for updating. The entire training process (roughly 40,000 iterations) will take ~3 hours on a standard machine (no GPUs). These word-vectors can be used to perform a (very simple) sentiment analysis task. Alternatively, pre-trained vectors can be used. More details about various parts of the implementation can be found in the assignment description (attached as a pdf, *assignment1_description*).
+The word vectors are trained on the Stanford Sentiment Treebank (SST). Stochastic gradient descent is used for updating. The entire training process (roughly 40,000 iterations) will take ~3 hours on a standard machine (no GPUs). These word-vectors can be used to perform a (very simple) sentiment analysis task. Alternatively, pre-trained vectors can be used.
 
 ### List of requirements
 * [python](https://www.python.org/downloads/) (tested with 2.7.12)
